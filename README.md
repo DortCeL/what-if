@@ -1,5 +1,5 @@
 # 🧠 What If?
-[![Live Demo](https://img.shields.io/badge/Live-Demo-black?style=for-the-badge)]([https://your-demo-url.com](https://what-if-ai-alif.vercel.app/))
+👉 **[Live Demo](https://your-demo-url.com)**
 
 A thoughtful AI that helps you see the value of things by imagining a world where they never existed.
 
