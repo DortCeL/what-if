@@ -1,0 +1,12 @@
+# Ignore all node_modules anywhere
+node_modules/
+
+# Ignore environment files anywhere
+.env
+.env.*
+
+# Optional but recommended
+dist/
+build/
+coverage/
+.DS_Store
