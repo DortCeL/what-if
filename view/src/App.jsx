@@ -6,7 +6,7 @@ export default function App() {
 	const [raw, setRaw] = useState(null); // parsed JSON
 	const [error, setError] = useState("");
 
-	const endpoint = "http://localhost:3000/generate";
+	const endpoint = `${import.meta.env.VITE_API_URL}/generate`;
 
 	const bulletItems = useMemo(() => {
 		if (!raw || typeof raw !== "object") return [];
