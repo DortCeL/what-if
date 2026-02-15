@@ -1,10 +1,14 @@
 # 🧠 What If?
+[![Live Demo](https://img.shields.io/badge/Live-Demo-black?style=for-the-badge)]([https://your-demo-url.com](https://what-if-ai-alif.vercel.app/))
+
 A thoughtful AI that helps you see the value of things by imagining a world where they never existed.
 
 Give it a concept — like the internet, electricity, democracy, or coffee — and it generates a historically plausible world where that thing never existed.
 
 The goal?  
 To help you understand the impact of something just by removing it.
+
+
 
 ---
 
