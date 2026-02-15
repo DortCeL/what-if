@@ -1,28 +1,25 @@
-```markdown
 # 🧠 What If?
+A thoughtful AI that helps you see the value of things by imagining a world where they never existed.
 
-> A thoughtful AI that helps you see the value of things by imagining a world where they never existed.
-
-**What If?** is a lightweight AI web app that runs alternate timeline simulations.  
 Give it a concept — like the internet, electricity, democracy, or coffee — and it generates a historically plausible world where that thing never existed.
 
 The goal?  
-To help you understand impact by removing it.
+To help you understand the impact of something just by removing it.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📝 Simple prompt-based interface  
-- 🤖 Gemini-powered alternate timeline generation  
-- 📦 Clean structured JSON output  
-- 🎨 Modern React + Tailwind UI  
-- ⚡ Express backend API  
-- 🧼 Production-ready JSON parsing  
+- Simple prompt-based interface
+- Gemini-powered alternate timeline generation
+- Clean structured JSON output  
+- React + Tailwind UI  
+- Express backend API  
+- Robust JSON parsing
 
 ---
 
-## 🏗 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React
@@ -36,32 +33,13 @@ To help you understand impact by removing it.
 
 ---
 
-## 📂 Project Structure
-
-```
-
-.
-├── backend/
-│   ├── server.js
-│   └── package.json
-│
-├── view/ (frontend)
-│   ├── src/
-│   └── package.json
-│
-└── .gitignore
-
-````
-
----
-
-## 🚀 Getting Started
+## How to run as a developer
 
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/what-if-ai.git
-cd what-if-ai
+git clone https://github.com/DortCeL/what-if.git
+cd what-if
 ````
 
 ---
@@ -79,18 +57,6 @@ Create a `.env` file:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-Start the server:
-
-```bash
-node server.js
-```
-
-Runs on:
-
-```
-http://localhost:3000
-```
-
 ---
 
 ### 3️⃣ Setup Frontend
@@ -98,27 +64,13 @@ http://localhost:3000
 ```bash
 cd view
 npm install
-npm run dev
 ```
 
-Open:
+### 🏃‍➡️ RUN
 
-```
-http://localhost:5173
+From the root directory run "npm install" and "npm run dev". `Concurrently` will run the backend and frontend with one command. Enjoy ;)
 
-## 🔌 API Endpoint
-
-### `POST /generate`
-
-**Request**
-
-```json
-{
-  "text": "What if the internet never existed?"
-}
-```
-
-**Response**
+**Sample Response**
 
 ```json
 {
@@ -136,34 +88,7 @@ Returns pure JSON. No markdown wrappers.
 
 ---
 
-## 🌍 Deployment Options
-
-You can deploy this project using:
-
-* Frontend → **Vercel**
-* Backend → **Render**
-* Or everything on **Cloud Run**
-
-Make sure to set:
-
-```
-GEMINI_API_KEY
-```
-
-as an environment variable in production.
-
----
-
-## 🛡 Production Notes
-
-* Restrict CORS to your frontend domain
-* Add rate limiting to `/generate`
-* Never expose your API key to the frontend
-* Validate prompt length before sending to the model
-
----
-
-## 💡 Why This Exists
+## Author's philosophy
 
 We often understand value only when something is gone.
 
@@ -180,7 +105,7 @@ It’s about perspective.
 
 ---
 
-## 🔮 Future Ideas
+## Future Ideas
 
 * Save/share timelines
 * Side-by-side timeline comparison
@@ -190,7 +115,3 @@ It’s about perspective.
 
 ---
 
-## 🧘 Philosophy
-
-> Sometimes the best way to understand something
-> is to imagine a world without it.
